@@ -12,6 +12,11 @@ name: "notfound",
 component: () => import("@/views/NotFound.vue"),
 },
 {
+path: "/contacts/create",
+name: "contact.create",
+component: () => import("@/views/ContactCreate.vue"),
+},
+{
 path: "/contacts/:id",
 name: "contact.edit",
 component: () => import("@/views/ContactEdit.vue"),
